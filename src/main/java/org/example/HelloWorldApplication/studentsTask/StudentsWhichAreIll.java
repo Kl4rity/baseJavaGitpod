@@ -16,17 +16,9 @@ public class StudentsWhichAreIll {
     }
 
     public List<Person> findOverlapBetweenStudentsAndPeople() {
-        return students.stream().filter(it -> {
-            return illPeople.stream()
-            .map(shadowIt -> peopleDoMatch(it, shadowIt))
-            .anyMatch(matchedWithOtherList -> matchedWithOtherList);
-        }).collect(Collectors.toList());
-    }
-
-    public Boolean peopleDoMatch(Person person, Person personToCompareTo) {
-        Boolean firstNameMatches = person.firstName == personToCompareTo.firstName;
-        Boolean lastNameMatches = person.lastName == personToCompareTo.lastName;
-        return firstNameMatches && lastNameMatches;
+        // Implement a method (or methods) that returns the overlapt between IllPeople and Students.
+        // Run `mvn test` at any time to see whether your solution is correct.
+        return List.of();
     }
 
     private List<Student> getListOfStudents() {
