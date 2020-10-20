@@ -1,7 +1,6 @@
 package org.example.HelloWorldApplication.studentsTask;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 import org.example.HelloWorldApplication.studentsTask.people.*;
 

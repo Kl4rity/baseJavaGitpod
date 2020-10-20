@@ -3,7 +3,6 @@ package org.example.HelloWorldApplication.studentsTask;
 import java.util.List;
 
 import org.example.HelloWorldApplication.studentsTask.people.Person;
-import org.example.HelloWorldApplication.studentsTask.people.Student;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.slf4j.LoggerFactory;
