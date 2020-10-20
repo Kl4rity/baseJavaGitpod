@@ -34,6 +34,6 @@ public class StudentsWhichAreIllUnitTest {
     @Disabled
     void GIVEN_two_lists_with_overlap_WHEN_findOverlap_is_called_THEN_resulting_collection_contains_Hans_Müller(){
         List<Person> overlap = new StudentsWhichAreIll().findOverlapBetweenStudentsAndPeople();
-        assert(overlap.contains(new Student("Fritz", "Schmidt")));
+        assert(overlap.contains(new Person("Fritz", "Schmidt")));
     }
 }
